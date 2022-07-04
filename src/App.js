@@ -1,8 +1,10 @@
 import React from 'react'
+import { BrowserRouter, Router } from 'react-router-dom';
 import Accueil from './Accueil';
 import './App.css';
-import Navbar from './Navbar';
+import Navbaraccueuil from './Navbaraccueuil';
 import Video from "./video/Projet2.mp4";
+
 
 function App() {
   return (
@@ -12,9 +14,10 @@ function App() {
 <source src={Video} type="video/mp4" />
 
 </video>
-  <Navbar />
+  <Navbaraccueuil />
   <Accueil />
     </div>
+  
   );
 }
 
